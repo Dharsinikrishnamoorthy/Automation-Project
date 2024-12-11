@@ -1,0 +1,834 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-11T18:46:20.972Z",
+        "line": 4,
+        "name": "To check the links",
+        "description": "",
+        "id": "to-validate-the-important-links-in-inmakes-learning-hub;to-check-the-links",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9504919500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch  browser and maximise the window",
+            "match": {
+              "location": "CheckLink.to_launch_browser_and_maximise_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4326607900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch  URL application",
+            "match": {
+              "location": "CheckLink.to_launch_URL_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102831200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To scroll down to the bottom of the page",
+            "match": {
+              "location": "CheckLink.to_scroll_down_to_the_bottom_of_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1637923600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click the Home link button",
+            "match": {
+              "location": "CheckLink.to_click_the_Home_link_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3351432000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To click the All Course link button",
+            "match": {
+              "location": "CheckLink.to_click_the_All_Course_link_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1234263400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click the Login link button",
+            "match": {
+              "location": "CheckLink.to_click_the_Login_link_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1261260500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To click the User Agreement link button",
+            "match": {
+              "location": "CheckLink.to_click_the_User_Agreement_link_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1249853400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To click the Privacy Policy link button",
+            "match": {
+              "location": "CheckLink.to_click_the_Privacy_Policy_link_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the important links in Inmakes Learning Hub",
+    "description": "",
+    "id": "to-validate-the-important-links-in-inmakes-learning-hub",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Checklink.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-11T18:46:43.884Z",
+        "line": 4,
+        "name": "User searches the course and adds it to the cart.",
+        "description": "",
+        "id": "to-validate-the-course-details-of-inmakes-learning-hub;user-searches-the-course-and-adds-it-to-the-cart.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5865438000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the browser and maximise the window",
+            "match": {
+              "location": "CourseSearch.to_launch_the_browser_and_maximise_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2113454300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the URL application",
+            "match": {
+              "location": "CourseSearch.to_launch_the_URL_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 792062900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To pass the text in the search box",
+            "match": {
+              "location": "CourseSearch.to_pass_the_text_in_the_search_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 826956800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To click the enter button",
+            "match": {
+              "location": "CourseSearch.to_click_the_enter_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3510970400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To click the add to cart",
+            "match": {
+              "location": "CourseSearch.to_click_the_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 317464500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click the remove to cart",
+            "match": {
+              "location": "CourseSearch.to_click_the_remove_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1816086700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the chrome browser",
+            "match": {
+              "location": "CourseSearch.to_close_the_chrome_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the course details of Inmakes Learning Hub",
+    "description": " ",
+    "id": "to-validate-the-course-details-of-inmakes-learning-hub",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/inmakes.feature",
+    "tags": [
+      {
+        "name": "@Feature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-12-11T18:46:59.150Z",
+        "line": 15,
+        "name": "To login with valid and invaild credentials",
+        "description": "",
+        "id": "to-validate-the-login-details-of-inmakes-learning-hub;to-login-with-valid-and-invaild-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7139053900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch browser and maxmize the window",
+            "match": {
+              "location": "LoginCheck.to_launch_browser_and_maxmize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2450958800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the url application",
+            "match": {
+              "location": "LoginCheck.to_launch_the_url_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1246032900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To click the login button",
+            "match": {
+              "location": "LoginCheck.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 357138300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To enter the email \"Sini@gmail.com\"in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sini@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginCheck.to_enter_the_email_in_the_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 216408200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To enter the passowd \"56456\"in the passowrd field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"56456\"",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginCheck.to_enter_the_passowd_in_the_passowrd_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3075804100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click login button",
+            "match": {
+              "location": "LoginCheck.to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1331470600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the Browser",
+            "match": {
+              "location": "LoginCheck.to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-11T18:47:14.991Z",
+        "line": 16,
+        "name": "To login with valid and invaild credentials",
+        "description": "",
+        "id": "to-validate-the-login-details-of-inmakes-learning-hub;to-login-with-valid-and-invaild-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4587465400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch browser and maxmize the window",
+            "match": {
+              "location": "LoginCheck.to_launch_browser_and_maxmize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2070537300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the url application",
+            "match": {
+              "location": "LoginCheck.to_launch_the_url_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1777422400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To click the login button",
+            "match": {
+              "location": "LoginCheck.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 498838400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To enter the email \"Ammu@gmail.com\"in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ammu@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginCheck.to_enter_the_email_in_the_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201854700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To enter the passowd \"789654\"in the passowrd field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"789654\"",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginCheck.to_enter_the_passowd_in_the_passowrd_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2846733200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click login button",
+            "match": {
+              "location": "LoginCheck.to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1155180600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the Browser",
+            "match": {
+              "location": "LoginCheck.to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-11T18:47:28.144Z",
+        "line": 17,
+        "name": "To login with valid and invaild credentials",
+        "description": "",
+        "id": "to-validate-the-login-details-of-inmakes-learning-hub;to-login-with-valid-and-invaild-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4675358600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch browser and maxmize the window",
+            "match": {
+              "location": "LoginCheck.to_launch_browser_and_maxmize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3321327900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the url application",
+            "match": {
+              "location": "LoginCheck.to_launch_the_url_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8149990800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To click the login button",
+            "match": {
+              "location": "LoginCheck.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 328051800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To enter the email \"Jass@gmail.com\"in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jass@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginCheck.to_enter_the_email_in_the_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 461599100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To enter the passowd \"564123\"in the passowrd field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"564123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginCheck.to_enter_the_passowd_in_the_passowrd_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2917565700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click login button",
+            "match": {
+              "location": "LoginCheck.to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1156267500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the Browser",
+            "match": {
+              "location": "LoginCheck.to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-11T18:47:49.174Z",
+        "line": 18,
+        "name": "To login with valid and invaild credentials",
+        "description": "",
+        "id": "to-validate-the-login-details-of-inmakes-learning-hub;to-login-with-valid-and-invaild-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4634746400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch browser and maxmize the window",
+            "match": {
+              "location": "LoginCheck.to_launch_browser_and_maxmize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2040576100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the url application",
+            "match": {
+              "location": "LoginCheck.to_launch_the_url_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1692757200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To click the login button",
+            "match": {
+              "location": "LoginCheck.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 482747800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To enter the email \"Priya@gmail.com\"in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Priya@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginCheck.to_enter_the_email_in_the_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233317700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To enter the passowd \"525252\"in the passowrd field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"525252\"",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginCheck.to_enter_the_passowd_in_the_passowrd_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10115680700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click login button",
+            "match": {
+              "location": "LoginCheck.to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1991079800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the Browser",
+            "match": {
+              "location": "LoginCheck.to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-11T18:48:10.373Z",
+        "line": 19,
+        "name": "To login with valid and invaild credentials",
+        "description": "",
+        "id": "to-validate-the-login-details-of-inmakes-learning-hub;to-login-with-valid-and-invaild-credentials;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4431131000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch browser and maxmize the window",
+            "match": {
+              "location": "LoginCheck.to_launch_browser_and_maxmize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1906247200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To launch the url application",
+            "match": {
+              "location": "LoginCheck.to_launch_the_url_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1782701000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To click the login button",
+            "match": {
+              "location": "LoginCheck.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298830600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To enter the email \"Sree@gmail.com\"in the email field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sree@gmail.com\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginCheck.to_enter_the_email_in_the_email_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 416729600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To enter the passowd \"223366\"in the passowrd field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"223366\"",
+                  "offset": 21
+                }
+              ],
+              "location": "LoginCheck.to_enter_the_passowd_in_the_passowrd_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3018020500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To click login button",
+            "match": {
+              "location": "LoginCheck.to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1591527600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To close the Browser",
+            "match": {
+              "location": "LoginCheck.to_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login details of Inmakes learning hub",
+    "description": "",
+    "id": "to-validate-the-login-details-of-inmakes-learning-hub",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/login.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

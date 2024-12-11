@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="122.809972">
+    <testcase classname="To validate the important links in Inmakes Learning Hub" name="To check the links" time="22.895863">
+        <system-out><![CDATA[Given To launch  browser and maximise the window............................passed
+When To launch  URL application.............................................passed
+And To scroll down to the bottom of the page................................passed
+And To click the Home link button...........................................passed
+And To click the All Course link button.....................................passed
+And To click the Login link button..........................................passed
+And To click the User Agreement link button.................................passed
+And To click the Privacy Policy link button.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the course details of Inmakes Learning Hub" name="User searches the course and adds it to the cart." time="15.259983">
+        <system-out><![CDATA[Given To launch the browser and maximise the window.........................passed
+When To launch the URL application..........................................passed
+And To pass the text in the search box......................................passed
+And To click the enter button...............................................passed
+And To click the add to cart................................................passed
+And To click the remove to cart.............................................passed
+Then To close the chrome browser............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login details of Inmakes learning hub" name="To login with valid and invaild credentials" time="15.838171">
+        <system-out><![CDATA[Given To launch browser and maxmize the window..............................passed
+When To launch the url application..........................................passed
+And To click the login button...............................................passed
+And To enter the email "Sini@gmail.com"in the email field...................passed
+And To enter the passowd "56456"in the passowrd field.......................passed
+And To click login button...................................................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login details of Inmakes learning hub" name="To login with valid and invaild credentials 2" time="13.143612">
+        <system-out><![CDATA[Given To launch browser and maxmize the window..............................passed
+When To launch the url application..........................................passed
+And To click the login button...............................................passed
+And To enter the email "Ammu@gmail.com"in the email field...................passed
+And To enter the passowd "789654"in the passowrd field......................passed
+And To click login button...................................................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login details of Inmakes learning hub" name="To login with valid and invaild credentials 3" time="21.025751">
+        <system-out><![CDATA[Given To launch browser and maxmize the window..............................passed
+When To launch the url application..........................................passed
+And To click the login button...............................................passed
+And To enter the email "Jass@gmail.com"in the email field...................passed
+And To enter the passowd "564123"in the passowrd field......................passed
+And To click login button...................................................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login details of Inmakes learning hub" name="To login with valid and invaild credentials 4" time="21.196934">
+        <system-out><![CDATA[Given To launch browser and maxmize the window..............................passed
+When To launch the url application..........................................passed
+And To click the login button...............................................passed
+And To enter the email "Priya@gmail.com"in the email field..................passed
+And To enter the passowd "525252"in the passowrd field......................passed
+And To click login button...................................................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To validate the login details of Inmakes learning hub" name="To login with valid and invaild credentials 5" time="13.449658">
+        <system-out><![CDATA[Given To launch browser and maxmize the window..............................passed
+When To launch the url application..........................................passed
+And To click the login button...............................................passed
+And To enter the email "Sree@gmail.com"in the email field...................passed
+And To enter the passowd "223366"in the passowrd field......................passed
+And To click login button...................................................passed
+Then To close the Browser...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
